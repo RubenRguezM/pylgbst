@@ -8,7 +8,7 @@ from pylgbst.peripherals import EncodedMotor, TiltSensor, Current, Voltage, COLO
 
 from bleak import BleakScanner
 
-from pylgbst.hubSpecific import PorscheGT4, ExpressPassengerTrain
+from pylgbst.hubSpecific import ExpressPassengerTrain
 
 """
    Class implementing Lego SmartHub specifics, abstract low level calls
